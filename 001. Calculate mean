@@ -1,6 +1,0 @@
-# The data set your searching the mean for
-data_set = [1, 2, 3]
-
-mean = sum(data_set)/ len(data_set)
-
-print(f"The mean is {mean}")
