@@ -1,0 +1,12 @@
+data = [1, 2, 3, 4]
+
+def sample_variance(data):
+    n = len(data)
+    mean = sum(data) / n
+    variance = sum((x - mean) ** 2 for x in data)
+
+    return variance
+
+squared_variance = sample_variance(data)
+
+print((f"The sample variance is {squared_variance}"))
