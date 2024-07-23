@@ -1,9 +1,9 @@
-data = [1, 2, 3, 4]
+data = [3, 7, 13, 18, 21]
 
 def sample_variance(data):
     n = len(data)
     mean = sum(data) / n
-    variance = sum((x - mean) ** 2 for x in data)
+    variance = sum((x - mean) ** 2 for x in data) / (n - 1)
 
     return variance
 
