@@ -7,6 +7,6 @@ def sample_variance(data):
 
     return variance
 
-squared_variance = sample_variance(data)
+squared_variance = sample_variance(data) 
 
 print((f"The sample variance is {squared_variance}"))
